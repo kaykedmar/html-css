@@ -1,0 +1,29 @@
+html { 
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+body { 
+  background-color: #ecc5c5;
+}
+
+main { 
+  background-color: #ffffff;
+  width: 600px; 
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgb(238, 236, 232)
+}
+
+p { 
+  text-justify: auto;
+}
+
+h1 { 
+  text-align: center;
+  color:blue
+}
+
+h2 { 
+  color: rgb(123, 138, 138);
+}

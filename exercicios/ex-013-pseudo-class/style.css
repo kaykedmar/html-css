@@ -1,0 +1,30 @@
+div { 
+  display: inline-block;
+  border: 3px solid rgb(253, 10, 10);
+  background-color: rgb(10, 238, 67);
+  height: 300px;
+  width: 300px;
+  color: aliceblue;
+
+}
+
+div:hover{
+  background-color: rgb(255, 60, 0);
+  border: 5px solid #000000;
+  color:  rgb(0, 0, 0);
+
+}
+
+div > span { 
+  display: none;
+
+}
+
+div:hover > span { 
+  display: inline-block; 
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+
+
+
+}
