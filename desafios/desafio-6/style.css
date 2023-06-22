@@ -22,16 +22,23 @@ section {
   padding-top: 10vh;
   padding-bottom: 10vh;
   line-height: 2em;
+  padding-left: 50px;
 }
 
 section.normal { 
   background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  color: rgb(48, 47, 47);
 }
 
 section.imagem { 
-  background-color: black;
+  background-color: rgb(70, 70, 70);
   color: white;
+}
+
+section.imagem > p { 
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.212);
+
 }
 
 footer { 
