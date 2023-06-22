@@ -1,6 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root { 
+  --fonte1: 'Sriracha', cursive;
+  --fonte2: 'IBM Plex Mono', monospace;
+  --fonte3: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
 * { 
   margin: 0px;
   padding: 0px;
+
 }
 
 header { 
@@ -8,14 +21,19 @@ header {
   color: white;
   font-variant: small-caps;
   text-align: center;
+  font-family: var(--fonte2);
+
 }
 
 header > h1 { 
   padding-top: 50px;
+  font-size: 4.5em;
+
 }
 
 header > p { 
   padding-bottom: 50px;
+ 
 }
 
 section { 
@@ -23,6 +41,8 @@ section {
   padding-bottom: 10vh;
   line-height: 2em;
   padding-left: 50px;
+  font-family: var(--fonte1);
+  font-size: 2em
 }
 
 section.normal { 
@@ -36,8 +56,9 @@ section.imagem {
 }
 
 section.imagem > p { 
-  width: 400px;
+  display: inline-block;
   background-color: rgba(0, 0, 0, 0.212);
+  padding: 10px;
 
 }
 
