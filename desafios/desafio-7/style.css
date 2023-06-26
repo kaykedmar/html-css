@@ -60,7 +60,8 @@ section#img1 {
   background-image: url(img/astronaut-nebula-clouds-space-travel-space-adventure-3556x2000-897.jpg);
   background-position: right bottom;
   background-size: cover;
-  background-attachment: fixed 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 
 }
 
@@ -68,6 +69,7 @@ section#img2 {
   background-image: url(img/wallpapersden.com_the-astronaut-adventure_1920x1200.jpg);
   background-position:  left right;
   background-attachment: fixed ; 
+  background-repeat: no-repeat;
 }
 
 
