@@ -22,18 +22,20 @@ header > h1 {
 }
 
 section { 
-  padding-left: 50px;
+  padding-left: 20px;
   padding-top: 15vh;
   padding-bottom: 15vh;
   font-size: 1.5em;
   line-height: 1.5;
+  padding-right: 20px;
 }
 
 
 section > p { 
-  padding-bottom: 50px;
+  /* padding-bottom: 50px;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 50px; */
+  
 }
 
 
@@ -50,8 +52,9 @@ section.imagem {
 section.imagem > p { 
   background-color: rgba(0, 0, 0, 0.219);
   /* display: inline; */
-  width: 500px;
+  width: 400px;
   color: white;
+
 
 }
 
