@@ -8,8 +8,8 @@ html {
 }
 
 header { 
-  background-color: black;
-  color: white;
+  background-color: rgba(0, 0, 0, 0.897);
+  color: rgb(175, 175, 175);
   height: 150px;
   text-align: center;
   padding-top: 40px;
@@ -28,19 +28,19 @@ section {
   font-size: 1.5em;
   line-height: 1.5;
   padding-right: 20px;
-}
-
-
-section > p { 
-   padding-bottom: 50px;
-
+  max-height: 70vh;
   
 }
 
+section > p { 
+   padding-bottom: 50px;
+}
 
 section.normal { 
   background-color: rgb(255, 255, 255);
   padding-right: 20px;
+
+
 }
 
 section.imagem { 
@@ -52,13 +52,14 @@ section.imagem > p {
   background-color: rgba(0, 0, 0, 0.219);
   max-width: 400px;
   color: white;
+  padding: 10px;
 
 
 }
 
 section#img1 { 
   background-image: url(img/astronaut-nebula-clouds-space-travel-space-adventure-3556x2000-897.jpg);
-  background-position: right bottom;
+  background-position: center top;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -67,7 +68,7 @@ section#img1 {
 
 section#img2 { 
   background-image: url(img/wallpapersden.com_the-astronaut-adventure_1920x1200.jpg);
-  background-position:  left right;
+  background-position:  center ;
   background-attachment: fixed ; 
   background-repeat: no-repeat;
 }
