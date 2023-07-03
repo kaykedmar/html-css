@@ -1,0 +1,88 @@
+* { 
+  margin: 0px;
+  padding: 0px;
+}
+
+html { 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header { 
+  background-color: rgba(0, 0, 0, 0.897);
+  color: rgb(175, 175, 175);
+  height: 150px;
+  text-align: center;
+  padding-top: 40px;
+
+}
+
+header > h1 { 
+  font-size: 60px;
+  font-variant: small-caps; 
+}
+
+section { 
+  padding-left: 20px;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding-right: 20px;
+  max-height: 70vh;
+  
+}
+
+section > p { 
+   padding-bottom: 50px;
+}
+
+section.normal { 
+  background-color: rgb(255, 255, 255);
+  padding-right: 20px;
+
+
+}
+
+section.imagem { 
+  background-color: rgb(255, 255, 255);
+  padding-right: 20px;
+}
+
+section.imagem > p { 
+  background-color: rgba(0, 0, 0, 0.219);
+  max-width: 400px;
+  color: white;
+  padding: 10px;
+
+
+}
+
+section#img1 { 
+  background-image: url(img/astronaut-nebula-clouds-space-travel-space-adventure-3556x2000-897.jpg);
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
+section#img2 { 
+  background-image: url(img/wallpapersden.com_the-astronaut-adventure_1920x1200.jpg);
+  background-position:  center ;
+  background-attachment: fixed ; 
+  background-repeat: no-repeat;
+}
+
+
+footer { 
+  background-color: black;
+  color: white;
+  height: 50px;
+  text-align: center;
+  height: 40px;
+}
+
+footer > p { 
+  padding-top: 10px;
+}
+

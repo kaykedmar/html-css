@@ -1,0 +1,35 @@
+div.quadrado { 
+  display: inline-block;
+  border: 2px black solid;
+  height: 300px;
+  width: 300px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+body { 
+  background-image: url(imagens/wallpaper006.jpg);
+  margin: 30px;
+}
+
+div#q1 { 
+  background-image: url(imagens/pattern004.png);
+  
+}
+
+div#q2 { 
+  background-image: url(imagens/pattern003.png);
+}
+
+div#q3 { 
+  background-image: url(imagens/wallpaper005.jpg);
+}
+
+.escrita { 
+  margin-left: 200px;
+  margin-bottom: 30px;
+  width: 500px;
+  height: 20px;
+  border: solid black 2px;
+  background-color: antiquewhite;
+  background-image: url(imagens/wallpaper005.jpg);
+}

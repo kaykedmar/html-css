@@ -1,0 +1,112 @@
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  /* margin-top: 0px; */
+  background-color: rgba(63, 65, 63, 0.274);
+}
+
+h1 { 
+  text-align: center;
+  color: white;
+  margin-top: 70px;
+
+}
+
+#descrition { 
+  text-align: center;
+  color: white;
+}
+
+nav > a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  
+
+}
+
+header { 
+  background-image: linear-gradient(to bottom, rgb(27, 206, 27), rgba(48, 48, 48, 0.959));
+  margin-top: -20px;
+  padding: 10px;
+  border: 10px 10px 10px solid black;
+  height: 200px; }
+  
+
+h2 { 
+  color: rgb(58, 212, 58);
+  margin-left: 20px;
+}
+
+#h2 { 
+  background-color: rgba(106, 168, 106, 0.267);
+}
+
+p { 
+  text-indent: 50px;
+  margin: 10px;
+  text-align: justify;
+}
+
+
+
+#h3 { 
+  background-color: rgba(106, 168, 106, 0.267);
+}
+
+main { 
+  background-color: aliceblue;
+  margin: 50px;
+  border: 1px solid black;
+  width: 800px;
+  margin: auto;
+
+
+}
+
+span { 
+  background-color: rgba(82, 182, 82, 0.521);
+  color: rgb(69, 151, 69);
+}
+
+#bugdroid { 
+  display: block;
+  margin: auto;
+}
+
+footer { 
+  margin-top: 10px;
+  background-color: antiquewhite;
+  
+ 
+}
+
+h3 { 
+  background-color: green;
+  width: 780px;
+  margin: auto;
+  height: 30px;
+  color: white;
+  padding-left: 20px;
+  border-radius: 5px;
+
+  
+ 
+}
+
+nav { 
+  margin-top: 40px;
+  padding-left: 5px;
+  
+}
+
+a { 
+  padding: 10px ;
+ 
+}
+
+a:hover { 
+  background-color: rgb(25, 119, 72);
+  color: rgb(255, 255, 255);
+}
+
+

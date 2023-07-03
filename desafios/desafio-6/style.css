@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root { 
+  --fonte1: 'Sriracha', cursive;
+  --fonte2: 'IBM Plex Mono', monospace;
+  --fonte3: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+* { 
+  margin: 0px;
+  padding: 0px;
+
+}
+
+header { 
+  background-color: black;
+  color: white;
+  font-variant: small-caps;
+  text-align: center;
+  font-family: var(--fonte2);
+
+}
+
+header > h1 { 
+  padding-top: 50px;
+  font-size: 4.5em;
+
+}
+
+header > p { 
+  padding-bottom: 50px;
+ 
+}
+
+section { 
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 50px;
+  font-family: var(--fonte1);
+  font-size: 2em;
+  padding-right: 50px;
+}
+
+section.normal { 
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 47, 47);
+}
+
+section.imagem { 
+  background-color: rgb(70, 70, 70);
+  color: white;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.37);
+}
+
+section.imagem > p { 
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.212);
+  padding: 10px;
+}
+
+section > p { 
+  padding-bottom: 2em;
+}
+
+section#img01 { 
+  /* background-image: url(imagens/background001.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed ; */
+  
+  /* mesma maneira de aplicar o conteudo de cima, usando menos codigo, o cover nao funciona nesse codigo reduzido */
+
+background: url(imagens/background001.jpg) center center no-repeat fixed;
+background-size: cover 
+}
+
+section#img02 { 
+  /* background-image: url(imagens/background002.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;  */ 
+
+  background: url(imagens/background002.jpg) right center no-repeat fixed;
+  background-size: cover;
+}
+
+footer { 
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 40px;
+}
+
+footer > p { 
+  padding-top: 10px;
+}
