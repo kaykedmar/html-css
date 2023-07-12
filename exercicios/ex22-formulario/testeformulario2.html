@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Formulario</title>
+    <style>
+
+        body { 
+            background: black;
+        }
+
+
+        main { 
+            background-color: black;
+            color: white;
+            width: 250px;
+            height: 300px;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+
+            background: url(img/656649.jpg) center center;
+
+        }
+
+        p, a  { 
+            margin: 20px;
+            color: white;
+        }
+
+        h1  { 
+            margin-left: 50px;
+          
+        }
+
+        #botao { 
+            margin-left: 18px;
+            margin-top: 10px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <form action="cadastro.php" autocomplete="off">
+            
+                    <h1>Usuario</h1>
+            <p><label for="iemail">Email:</label>
+
+                <input type="text" name="email" id="iemail">
+
+            </p>
+
+            <p><label for="isenha">Senha: </label>
+
+                <input type="password" name="senha" id="isenha">
+            </p>
+
+            <input type="button" value="Entrar" id="botao"> <br>
+
+            <input type="button" value="Criar conta" id="botao"> <br>
+
+            <p><a href="/">Esqueci minha senha</a></p>
+
+        </form>
+
+
+
+    </main>
+</body>
+</html>
