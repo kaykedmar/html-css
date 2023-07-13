@@ -25,6 +25,8 @@
 
             background: url(img/656649.jpg) center center;
 
+            border-radius: 20px;
+
         }
 
         p, a  { 
@@ -48,9 +50,10 @@
 </head>
 <body>
     <main>
-        <form action="cadastro.php" autocomplete="off">
+        <form action="cadastro.php" method="post"  autocomplete="off" >
             
                     <h1>Usuario</h1>
+                    
             <p><label for="iemail">Email:</label>
 
                 <input type="text" name="email" id="iemail">
@@ -62,7 +65,7 @@
                 <input type="password" name="senha" id="isenha">
             </p>
 
-            <input type="button" value="Entrar" id="botao"> <br>
+            <input type="submit" value="Entrar" id="botao"> <br>
 
             <input type="button" value="Criar conta" id="botao"> <br>
 
