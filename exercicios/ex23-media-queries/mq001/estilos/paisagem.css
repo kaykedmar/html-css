@@ -4,4 +4,8 @@ body {
     background-image: url(../img/cev-landscape.jpg);
     background-size: contain;
     background-position: left bottom;
+    background-color: red;
+    color: rgb(238, 255, 0);
+    
 }
+
