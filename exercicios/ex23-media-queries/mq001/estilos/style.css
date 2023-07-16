@@ -1,1 +1,21 @@
 /* Configuraçoes Gerais */
+
+
+ body { 
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 98vh;
+    background-repeat: no-repeat;
+    background-color: rgb(19, 65, 192);
+    
+  
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+
+ }
+h1 { 
+     text-shadow: 2px, 2px rgb(128, 170, 113);
+}

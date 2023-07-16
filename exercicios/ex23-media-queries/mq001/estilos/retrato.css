@@ -1,1 +1,7 @@
 /* Aparelho em Pe (portrait) */
+
+body { 
+    background-image: url(../img/cev-portrait.jpg);
+    background-size: contain;
+    background-position: center bottom;
+}
