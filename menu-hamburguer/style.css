@@ -1,0 +1,30 @@
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background-color: black;
+}
+
+li { 
+    list-style: none;
+    padding-bottom: 20px;
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 100px;
+    background-color: rgb(165, 165, 165);
+    margin-left: 2px;
+    text-align: center;
+}
+
+.itens { 
+    display: none;
+}
+
+span.material-symbols-outlined { 
+    cursor: pointer;
+    user-select: none;
+    margin-left: 2px;
+    color: white;
+}
