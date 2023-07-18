@@ -1,0 +1,18 @@
+/* Typical Device Breakpoints
+-----------------------------
+Pequenas telas: ate 600px
+Celular: de 600px ate 768px
+Tablet: 768px ate 992px
+Desktop: 992px ate 1200px
+Grandes telas: acima de 1200px
+ */
+
+ @media screen and (min-width: 767px) {
+    span#menu { 
+        display: none;
+        
+    }
+    #itens { 
+        display: block;
+    }
+ }
